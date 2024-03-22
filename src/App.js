@@ -3,6 +3,7 @@ import EffectComponent from "./components/EffectComponent";
 import EffectComponent2 from "./components/EffectComponent2";
 import StateComponent from "./components/StateComponent";
 import ContextComponent from "./components/ContextComponent";
+import RefComponent from "./components/RefComponent";
 
 function App() {
   return (
@@ -10,7 +11,8 @@ function App() {
       {/* <StateComponent /> */}
       {/* <EffectComponent /> */}
       {/* <EffectComponent2 /> */}
-      <ContextComponent />
+      {/* <ContextComponent /> */}
+      <RefComponent />
     </>
   );
 }
