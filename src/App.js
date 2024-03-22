@@ -4,6 +4,7 @@ import EffectComponent2 from "./components/EffectComponent2";
 import StateComponent from "./components/StateComponent";
 import ContextComponent from "./components/ContextComponent";
 import RefComponent from "./components/RefComponent";
+import MemoComponent from "./components/MemoComponent";
 
 function App() {
   return (
@@ -12,7 +13,8 @@ function App() {
       {/* <EffectComponent /> */}
       {/* <EffectComponent2 /> */}
       {/* <ContextComponent /> */}
-      <RefComponent />
+      {/* <RefComponent /> */}
+      <MemoComponent />
     </>
   );
 }
