@@ -5,6 +5,7 @@ import StateComponent from "./components/StateComponent";
 import ContextComponent from "./components/ContextComponent";
 import RefComponent from "./components/RefComponent";
 import MemoComponent from "./components/MemoComponent";
+import CallbackComponent from "./components/CallbackComponent";
 
 function App() {
   return (
@@ -14,7 +15,8 @@ function App() {
       {/* <EffectComponent2 /> */}
       {/* <ContextComponent /> */}
       {/* <RefComponent /> */}
-      <MemoComponent />
+      {/* <MemoComponent /> */}
+      <CallbackComponent />
     </>
   );
 }
